@@ -1,0 +1,27 @@
+.penghasilan{
+  width: 100%;
+  border-collapse: collapse;
+  td{
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+.detail{
+  h1{
+    text-align: center;
+  }
+  &>p:first-child{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 5px; 
+  }
+  &>p{
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.nama{
+  margin: 20px 0;
+}

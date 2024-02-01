@@ -1,0 +1,39 @@
+@use "../../colors";
+
+.pengajuan{
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 0 50px;
+  padding-bottom: 30px;
+  margin-right: 70px;
+  input{
+    border: 1px solid black;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border-radius: 100px;
+      }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  label{
+    margin-top: 20px;
+  }
+  h1 {
+    color: colors.$primary;
+  }
+  button{
+    padding: 6px 40px;
+    border: none;
+    color: white;
+    background-color: #005E98;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+}

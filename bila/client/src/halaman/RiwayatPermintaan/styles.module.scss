@@ -1,0 +1,70 @@
+.penghasilan{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  td{
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+.detail{
+  padding-right: 30px;
+  input{
+    border: 1px solid black;
+    padding: 4px 80px;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 200px;
+  }
+  button{
+    padding: 6px 40px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+  button:first-child{
+    background-color: green;
+  }
+  button:last-child{
+    background-color: red;
+    margin-left: 10px;
+  }
+  &>p:first-child{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 5px; 
+  }
+  &>p{
+    font-weight: bold;
+    margin: 0;
+  }
+
+  textarea {
+    width: 500px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    resize: none;
+  }
+}
+
+.nama{
+  margin-left: 400px;
+  margin-bottom: 40px;
+}
+
+.keterangan{
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  border: 1px solid black;
+  vertical-align: top;
+  font-size: 1.2rem;
+}

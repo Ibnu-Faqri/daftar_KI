@@ -1,0 +1,13 @@
+@use "../colors";
+
+.header{
+  background-color: colors.$primary;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-size: 1.5rem;
+  left: 0;
+}
